@@ -1,11 +1,11 @@
 /* HEADER */
-
 .main-container{
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
 }
+
 /* PLAYLIST */
 .playlist-container {
   height: 68vh;
@@ -46,8 +46,8 @@
 .offer__scroll-container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-/* FIM SCROLL */
 
+/* FIM SCROLL */
 .offer__list-item {
   display: grid;
   justify-items: center;
@@ -83,50 +83,64 @@
 .card1 {
   background-color: rgb(0, 100, 80);
 }
+
 .card2 {
   background-color: rgb(132, 0, 231);
 }
+
 .card3 {
   background: rgb(30, 50, 100);
 }
+
 .card4 {
   background: rgb(140, 25, 50);
 }
+
 .card5 {
   background: rgb(232, 17, 91);
 }
+
 .card6 {
   background: rgb(83, 122, 161);
 }
+
 .card7 {
   background: rgb(142, 102, 172);
 }
+
 .card8 {
   background: rgb(20, 138, 8);
 }
+
 .card9 {
   background: rgb(30, 50, 100);
 }
+
 .card10 {
   background: rgb(233, 20, 41);
 }
+
 .card11 {
   background: rgb(80, 55, 80);
 }
+
 .card12 {
   background: rgb(216, 64, 0);
 }
+
 .card13 {
   background: rgb(186, 93, 7);
 }
+
 .card14 {
   background: rgb(0, 30, 80);
 }
+
 .card15 {
   background: rgb(60, 30, 80);
 }
-/* FIM COLOR CARDS */
 
+/* FIM COLOR CARDS */
 .offer__list-item img {
   position: absolute;
   right: 0;
@@ -137,7 +151,6 @@
 }
 
 /* CARD ARTISTA */
-
 .artist {
   --column-count: 5;
   --grid-gap: 24px;
@@ -247,3 +260,9 @@
   padding: 20px 40px;
 }
 /* FIM CARD ARTISTA */
+
+@media screen and (max-width: 1015px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
